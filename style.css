@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#menu {
+    width: 260px;
+    background: #f2f2f2;
+    overflow-y: auto;
+    padding: 8px;
+    border-right: 2px solid #ccc;
+}
+
+.section {
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bbb;
+}
+
+.section h4 {
+    margin: 4px 0;
+    font-size: 12px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input, select, textarea {
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+textarea {
+    height: 60px;
+    resize: vertical;
+}
+
+.control-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.control-group button {
+    flex: 1;
+}
+
+.control-group input {
+    width: 50px;
+    font-size: 11px;
+}
+
+#canvas-container {
+    flex: 1;
+    display: flex;
+}
+
+#glcanvas {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.model-controls {
+    border: 1px solid #999;
+    padding: 6px;
+    margin-bottom: 6px;
+    background: #e6e6e6;
+}
+
+.model-controls input[type="text"] {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
